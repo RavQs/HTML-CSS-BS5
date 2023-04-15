@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 14%;
+    background-color:#cfe3ff;
+}
+
+.header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.header>div>ul {
+    list-style-type: none;
+    border-bottom-style:solid;
+    border-bottom-width: 0.5px;
+    padding: 0;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.section {
+    width: 82%;
+}
+
+/* Логин */
+.login-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-nav>nav>ul {
+    display: flex;
+    list-style-type: none;
+    align-items:center;
+    padding: 0;
+    margin:0;
+}
+
+.login-nav>nav>ul>li>a {
+    display: block;
+    padding-left: 10px;
+}
+
+/* навигационная панель */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cfe3ff;
+    margin-top: 20px;
+}
+
+.nav-container>nav>ul {
+    display: flex;
+    list-style-type:none;
+    align-items:center;
+    padding:   0;
+    margin: 0;
+}
+
+
+.nav-container>nav>ul>li>a {
+    display: block;
+    padding: 5px;
+    border-style:solid;
+    border-width: 0.5px;
+}
+
+.nav-container>nav>ul>input {
+    padding: 5px;
+}
+
+
+
+/* основной контент */
+.main-info {
+    padding-left: 10px;
+}
+
+
+.site-sub {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.main-info>h1 {
+    margin-bottom: 5px;
+}
+
+.content-info {
+    display: table;
+    border-style:solid;
+    border-width: 0.5px;
+    padding-right: 20px;
+
+}
+.content-info>p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.right-block {
+    border-style:solid;
+    border-width: 0.5px;
+    padding: 5px;
+    float: right;
+    margin-left: 10px;
+}
+
+.right-block-header {
+    text-align: center;
+    background-color:#cfe3ff;
+    margin-top: 5px;
+}
+
+.right-block>div {
+    display: flex;
+    flex-direction: column; /*only for flex */
+    align-items: center;
+}
+
+.html-logo {
+    width:100px;
+}
+
+
+/* Медиа запрос */
+@media (max-width:900px) {
+    .nav-container {
+        flex-direction: column;
+    }
+}
+

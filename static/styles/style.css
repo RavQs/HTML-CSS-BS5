@@ -1,0 +1,33 @@
+.main-header{
+    background-color:rgb(69, 69, 69);
+}
+
+.main-header h1{
+    text-align: center;
+    color:white;
+    margin: 0;
+
+}
+
+
+
+.main-container {
+    margin-top: 10px;
+    display: flex;
+    background-color: rgb(69, 69, 69);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-list {
+    display: flex;
+   
+}
+
+.main-list a {
+    color: white;
+    padding: 40px;
+    font-size: 24px;
+    text-decoration: none;
+}

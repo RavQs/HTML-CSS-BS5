@@ -1,0 +1,13 @@
+.navbar-brand img {
+    width: 40px;
+}
+
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+

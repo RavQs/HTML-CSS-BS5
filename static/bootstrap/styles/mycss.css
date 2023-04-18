@@ -2,12 +2,18 @@
     width: 40px;
 }
 
+body {
+    background: linear-gradient(90deg, #5444A0 0%, #16055F 0%, #3C1B7B 100%);
+}
 
 .nav-link {
-    color: white;
+    color: rgba(255, 255, 255, 0.422);
 }
 
 .navbar-nav .nav-link.active {
     color: white;
 }
 
+.navbar-toggler {
+   background-color:rgba(255, 255, 255, 0.422);
+}

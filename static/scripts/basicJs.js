@@ -2,11 +2,11 @@ main();
 
 function main() {
     let arr = [4,5,6,1,7,2,3];
-
+    let arr2 = [1,4,2,7,19];
     // console.log(`Odd arr is: ${onlyOdd(arr)}`);
     // console.log(`Min num is : ${findMin(arr)}`);
-    bubbleSort(arr);
-    console.log(arr);
+    // bubbleSort(arr);
+    console.log(inAscOrder(arr2)); 
 }
 
 function onlyOdd(arr)  {
@@ -45,3 +45,20 @@ function bubbleSort(arr) {
     }
     return arr;
 }
+
+
+function inAscOrder(arr) {
+    let minNum = 0;
+    arr.forEach(element => {
+        if (minNum > arr[element]) {
+            console.log(element);
+            return false;
+        }
+        else {
+            minNum = arr[element];
+        }
+    });
+    return true;
+}
+
+

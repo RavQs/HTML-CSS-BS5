@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Mono&display=swap');
+
+
 .navbar-brand img {
     width: 40px;
 }
 
 body {
+    font-family: Roboto Mono, serif;
     background: linear-gradient(90deg, #5444A0 0%, #16055F 0%, #3C1B7B 100%);
 }
 
@@ -16,4 +20,32 @@ body {
 
 .navbar-toggler {
    background-color:rgba(255, 255, 255, 0.422);
+}
+
+.card {
+    background: linear-gradient(270deg, #5444A0 0%, #16055F 0%, #3C1B7B 100%);
+    color: white;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+.sidebar {
+    background: linear-gradient(270deg, #5444A0 0%, #16055F 0%, #3C1B7B 100%);
+}
+
+.new-ref {
+    margin-top: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.slide-text {
+    color: white;
+    font-size: 24px;
+}
+
+.side-text {
+    margin-bottom: 5px;
 }

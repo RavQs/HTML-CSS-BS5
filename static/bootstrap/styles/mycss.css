@@ -41,11 +41,25 @@ body {
     text-decoration: none;
 }
 
-.slide-text {
+.slide-text,
+.footer-text {
     color: white;
-    font-size: 24px;
+    margin: auto auto;
+}
+
+
+footer {
+    background: linear-gradient(270deg, #5444A0 0%, #16055F 0%, #3C1B7B 100%);
+
 }
 
 .side-text {
     margin-bottom: 5px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }

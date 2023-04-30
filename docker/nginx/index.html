@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/static/pure/styles/style.css" />
+    <script src="/static/scripts/mainPage.js"></script>
     <title>Home</title>
   </head>
   <body>
-    <div class="main-header">
-      <h1>Main Page</h1>
-    </div>
-    <div class="main-container">
-      <div class="main-list">
-        <a href="wikiPage.html">Wiki Page</a>
-        <a href="testPage.html">Test Page</a>
-        <a href="bubblesPage.html">Bubbles Page</a>
-        <a href="/docker/nginx/bootstrap/index.html"
-          >Online Shop with bootstrap5</a
+    <div id="menu">
+      <div id="menu-items">
+        <a href="wikiPage.html" class="menu-item">Wiki Page</a>
+        <a href="testPage.html" class="menu-item">Test Page</a>
+        <a href="/docker/nginx/bootstrap/index.html" class="menu-item">
+          Online Shop bs5</a
         >
+        <a href="bubblesPage.html" class="menu-item">Bubbles Page</a>
       </div>
+      <div id="menu-bg-pattern"></div>
     </div>
+
+    <script>
+      animateMenu();
+    </script>
   </body>
 </html>
